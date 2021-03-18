@@ -69,4 +69,43 @@
 .news .news-box .news-footer .btn {
   font-size: 14px;
 }
+
+.structure .structure-box {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.structure .structure-box:hover {
+  -webkit-box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.14), 0px 6px 30px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.14), 0px 6px 30px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.structure .structure-box .structure-img {
+  height: 300px;
+}
+
+.structure .structure-box .structure-img img {
+  height: 300px;
+}
+
+.structure .structure-box .structure-content {
+  padding-bottom: 1px;
+  padding-bottom: 0px;
+}
+
+.structure .structure-box .structure-content .content-title {
+  font-size: 22px;
+}
+
+.structure .structure-box .structure-content .content-info {
+  font-size: 16px;
+}
+
+.structure .structure-box .structure-footer {
+  margin-top: 0px;
+}
+
+.structure .structure-box .structure-footer .btn {
+  font-size: 14px;
+}
 /*# sourceMappingURL=main.css.map */
