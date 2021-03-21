@@ -369,4 +369,55 @@
   font-size: 24px;
   line-height: 28px;
 }
+
+.overview {
+  min-height: 85vh;
+  padding-top: 70px;
+}
+
+.overview .nav-tabs {
+  margin-bottom: 10px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.overview .nav-tabs .nav-link.active {
+  background-color: #232323;
+  color: #f1f1f1;
+}
+
+.overview .nav-tabs .nav-link {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.overview .tab-content .tab-pane .content {
+  text-align: justify;
+  line-height: 1.5;
+  margin-top: 30px;
+}
+
+.overview .tab-content .tab-pane .content .logo {
+  width: 300px;
+  height: 190px;
+  float: right;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .overview .container {
+    padding: 0;
+  }
+  .overview .nav-tabs .nav-item .mbr-text {
+    font-size: 0.8rem;
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+  .overview .tab-content .tab-pane .content {
+    font-size: 1rem;
+  }
+  .overview .tab-content .tab-pane .content .logo {
+    width: 150px;
+    height: 90px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
