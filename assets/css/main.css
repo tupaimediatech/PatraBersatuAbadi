@@ -371,11 +371,11 @@
 }
 
 .gallery .gallery-info {
-  padding-top: 10px;
+  margin-top: 0px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 28px;
 }
 
