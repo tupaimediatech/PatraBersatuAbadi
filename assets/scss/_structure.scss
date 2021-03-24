@@ -1,4 +1,9 @@
 .structure{
+
+    h3{
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+    }
     .structure-box{
         box-shadow: $shadow;
 
@@ -30,5 +35,9 @@
                 font-size: 14px;
             }
         }
+    }
+
+    #commisioner{
+        margin-top: 60px;
     }
 }
