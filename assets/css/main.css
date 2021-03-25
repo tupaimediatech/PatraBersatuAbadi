@@ -429,4 +429,37 @@
     height: 90px;
   }
 }
+
+.services_detail {
+  padding-top: 50px;
+}
+
+.services_detail .jumbotron_services {
+  margin-top: 10px;
+  border-radius: 20px;
+  height: 300px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.services_detail .jumbotron_services .content-title {
+  font-size: 3rem;
+  margin-left: 30px;
+}
+
+.services_detail .content {
+  margin-top: 30px;
+}
+
+.services_detail .content .title .content-title {
+  color: black;
+  font-size: 2rem;
+}
+
+.services_detail .content .detail p {
+  line-height: 2rem;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2rem;
+  word-spacing: 1px;
+}
 /*# sourceMappingURL=main.css.map */
