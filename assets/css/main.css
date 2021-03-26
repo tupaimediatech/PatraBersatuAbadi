@@ -434,6 +434,11 @@
   padding-top: 50px;
 }
 
+.services_detail .icon svg {
+  height: 3em;
+  width: 3em;
+}
+
 .services_detail .jumbotron_services {
   margin-top: 10px;
   border-radius: 20px;
